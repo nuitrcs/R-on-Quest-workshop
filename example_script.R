@@ -43,3 +43,15 @@ status_plot <- ggplot(data_summary, aes(ST, count))+
 # save plot image
 ggsave(filename = plotpath, plot = status_plot)
 
+# EXERCISE 1:
+# (a) write code to create a new plot of jobs per user
+
+# (b) write code to save plot to current working directory on Quest
+
+# EXERCISE 2:
+# (a) open example_job.sh here in RStudio
+
+# (b) change allocation to one you're a member of
+
+# (c) submit example_job.sh from the terminal
+
