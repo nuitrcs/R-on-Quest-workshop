@@ -33,7 +33,7 @@ jobStatement
 
 # create plot of jobs running vs pending
 status_plot <- ggplot(data_summary, aes(ST, count))+
-  geom_bar()
+  geom_col()
 
 # save plot image
 ggsave(filename = plotpath, plot = status_plot)
